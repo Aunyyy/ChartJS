@@ -33,7 +33,6 @@ function App() {
         row.count = Math.floor(Math.random() * 101);
         return row;
       });
-      console.log(data);
       setUserData(userData => ({
         labels: data.map(row => row.year),
         datasets: [
